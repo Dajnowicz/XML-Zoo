@@ -1,1 +1,343 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<zoo>
+  <Azja>
+    <Tygrys gatunek="Amur">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Tygrys>
+
+    <Żółw gatunek="Aldabra">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Żółw>
+
+    <RybaAnielska>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </RybaAnielska>
+
+
+    <Hipopotam gatunek="nilowy">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Hipopotam>
+    
+  </Azja>
+
+  <Europa>
+    <Pyton gatunek="krwisty">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Pyton>
+
+    <Niedziedz gatunek="brazowy">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Niedziedz>
+
+    <Ropoucha gatunek="zurawia">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Ropoucha>
+
+    <Los>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Los>
+  </Europa>
+  
+  <Polnocna_Ameryka>
+    <Orangutan>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Orangutan>
+
+    <Nietoperz gatunek="Mantlacki">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Nietoperz>
+
+    <Żółw gatunek="Gwiazda Hinduska">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Żółw>
+
+    <Gepard>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Gepard>
+    
+    
+
+  </Polnocna_Ameryka>
+
+  <Antarktyka>
+
+    <Pingwin>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Pingwin>
+
+    <Niedźwiedz gatunek="Polarny">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Niedźwiedz>
+    
+    
+    <Foka gatunek="szara">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Foka>
+
+
+    <Lis gatunek="arktyczny">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Lis>
+
+    
+
+
+  </Antarktyka>
+
+  <Poludniowa_Ameryka>
+    <Hipopotam gatunek="kralowaty">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Hipopotam>
+    
+    <Jelen gatunek="szlachetny">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Jelen>
+
+    <Kapibara>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Kapibara>
+
+    <Kot gatunek="arabski">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Kot>
+</Poludniowa_Ameryka>
+
+  <Australia>
+    
+    <Mandryl>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Mandryl>
+
+    <Panda>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Panda>
+
+    <Ryś gatunek="Europejski">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Ryś>
+
+    <Zyrafa>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Zyrafa>
+
+  </Australia>
+
+  <Afryka>
+
+    <Alpaka>
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Alpaka>
+
+    
+    
+    <Żaneta gatunek="afrykanska">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Żaneta>
+    
+    <Zebra gatunek="Chapmana">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Zebra>
+
+    <Wielbłąd gatunek="jednogarbny">
+      <imie></imie>
+      <waga></waga>
+      <wiek></wiek>
+      <kolor></kolor>
+      <reprodukcja></reprodukcja>
+      <miejsce></miejsce>
+      <dieta></dieta>
+      <gromada></gromada>
+    </Wielbłąd>
+
+  </Afryka>
+
+</zoo>
