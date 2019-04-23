@@ -1,0 +1,161 @@
+﻿informacja {
+    background-image: linear-gradient(to right,red, yellow);
+    display: block;
+    border-left: 10px solid purple;
+    border-right: 10px solid purple;
+    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+opis {
+
+    background-image: linear-gradient(to right,red, yellow);
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+adres:before {
+    content: "Adres: ";
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 10px;
+}
+
+adres {
+    background-image: linear-gradient(to right,red, yellow);
+    display: block;
+    margin: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    border-left: 10px solid purple;
+    border-right: 10px solid purple;
+}
+
+ulica:before {
+    content: "Ulica: ";
+}
+
+kod_pocztowy:before {
+    content: "Kod Pocztowy: ";
+}
+
+miasto:before {
+    content: "Miasto: ";
+}
+
+miasto:before, kod_pocztowy:before, ulica:before {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+ulica, kod_pocztowy, miasto {
+    display: block;
+
+}
+
+prezes:before {
+    content: "Prezes Zoo: ";
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 10px;
+    font-weight: bolder;
+}
+prezes {
+    background-image: linear-gradient(to right,red, yellow);
+    display: block;
+    margin: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    border-left: 10px solid purple;
+    border-right: 10px solid purple;
+}
+
+imie:before {
+    content: "Imie: ";
+}
+
+waga:before {
+    content: "Waga: ";
+}
+
+wiek:before {
+    content: "Wiek: ";
+}
+
+kolor:before {
+    content: "Kolor: ";
+}
+
+okres_ciazy:before {
+    content: "Okres Ciazy: ";
+}
+
+gromada:before {
+    content: "Gromada: ";
+}
+
+
+Azja, Europa, Afryka, Antarktyka,
+Australia, Poludniowa_Ameryka, Polnocna_Ameryka {
+    display: inline-block;
+    margin: 10px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 10px solid purple;
+}
+
+zwierze {
+    display: block;
+    font-family: Arial;
+
+    margin: 40px;
+    border: 3px solid grey;
+    
+}
+
+imie, waga, wiek, kolor, okres_ciazy, gromada {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+okres_ciazy::after {
+    content:" miesiecy";
+}
+
+Azja::before {
+    display:block;
+    content: "Azja";
+    text-align:center;
+    margin-top:10px;
+}
+
+zwierze[plec='Mezczyzna']:hover {
+    background: blue;
+    margin: 40px;
+}
+
+[gromada='Ssaki']:hover {
+    background: blue;
+    margin: 40px;
+}

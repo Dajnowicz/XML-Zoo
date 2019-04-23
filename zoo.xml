@@ -1,208 +1,209 @@
 <?xml version='1.0' encoding='iso-8859-2' ?>
 <?xml-stylesheet type="text/css" href="Style.css" ?>
 <zoo>
-  <pracownicy>
-    
-    <zarzad>
-      <prezes plec="Mezczyzna">
-        <imie>Marcel</imie>
-        <nazwisko>Dajnowicz</nazwisko>
-        <wiek>22</wiek>
-      </prezes>
-    </zarzad>
-    
-    <reszta>
-      <hodowca plec="Kobieta">
-        <imie>Zuzia</imie>
-        <nazwisko>Zywa</nazwisko>
-        <wiek>24</wiek>
-      </hodowca>
-      <dozorca plec="Mezczyzna">
-        <imie>Adam</imie>
-        <nazwisko>Testowy</nazwisko>
-        <wiek>29</wiek>
-      </dozorca>
-    </reszta>
-  </pracownicy>
-  
-  <miejsce>
+      <miejsce>
     <informacja>
       <nazwa>Zoo w Oliwie</nazwa>
       <opis>Najwieksze zoo na pomorzu</opis>
     </informacja>
     <adres>
-      <ulica>Zwierzeca</ulica>
-      <numer>20</numer>
+      <ulica>Zwierzeca 20</ulica>
       <kod_pocztowy>81-343</kod_pocztowy>
       <miasto>Gdansk</miasto>
    </adres>
-  </miejsce>
+  </miejsce> 
+    <zarzad>
+      <prezes plec="Mezczyzna">
+        <imie>Marcel</imie>
+        <nazwisko>Dajnowicz</nazwisko>
+      </prezes>
+    </zarzad>
+  
+
   
   <zwierzeta>
     <Azja>
-      
+      <zwierze>
       <Tygrys gatunek="Amur" plec="Kobieta" wCiazy="Tak">
         <imie>Alice</imie>
         <waga funty="198">90</waga>
         <wiek dlugosc_zycia="17">6</wiek>
         <kolor znaki_szczegolne="pasy">Biało-Pomarańczowy</kolor>
-        <okres_ciazy>3 miesiące</okres_ciazy>
+        <okres_ciazy>3</okres_ciazy>
         <gromada>Ssaki</gromada>
       </Tygrys>
-
+      </zwierze>
+       <zwierze>
       <Zolw gatunek="Aldabra" plec="Mezczyzna">
         <imie>Aspen</imie>
         <waga funty="447">203</waga>
         <wiek dlugosc_zycia="300">67</wiek>
         <kolor znaki_szczegolne="Pancerz"></kolor>
-        <okres_ciazy>8 mięsięcy</okres_ciazy>
-        <gromada>Gady</gromada>
+        <okres_ciazy>8</okres_ciazy>
+        <gromada>Gady</gromada>      
       </Zolw>
-
+         </zwierze>
+      
+       <zwierze>
       <Ryba gatunek="Anielska" plec="Kobieta" wCiazy="Nie">
         <imie>Cubby</imie>
         <waga funty="29">12</waga>
         <wiek dlugosc_zycia="6">3</wiek>
         <kolor>Żółty</kolor>
-        <okres_ciazy>1 mięsiąc</okres_ciazy>
+        <okres_ciazy>1</okres_ciazy>
         <gromada>Promieniopłetwe</gromada>
       </Ryba>
+    </zwierze>
     </Azja>
 
   <Europa>
+     <zwierze>
     <Pyton gatunek="królewski" plec="Kobieta" wCiazy="Tak">
       <imie>Desi</imie>
       <waga funty="97">40</waga>
       <wiek dlugosc_zycia="30">17</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>3 miesiące</okres_ciazy>
+      <okres_ciazy>3</okres_ciazy>
       <gromada>Strunowce</gromada>
     </Pyton>
-
+ </zwierze>
+    <zwierze>
     <Niedziedz gatunek="brunatny" plec="Mezczyzna">
       <imie>Juno</imie>
       <waga funty="">456</waga>
       <wiek dlugosc_zycia="25">12</wiek>
       <kolor>Brunatny</kolor>
-      <okres_ciazy>12 miesięcy</okres_ciazy>
+      <okres_ciazy>12</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Niedziedz>
-
+    </zwierze>
+ <zwierze>
     <Los plec="Mezczyzna">
       <imie>Andrzej</imie>
       <waga funty="490">250</waga>
       <wiek dlugosc_zycia="25">17</wiek>
       <kolor>Brązowy</kolor>
-      <okres_ciazy>7 miesiecy</okres_ciazy>
+      <okres_ciazy>7</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Los>
+   </zwierze>
   </Europa>
   
   <Polnocna_Ameryka>
+     <zwierze>
     <Orangutan plec="Mezczyzna">
       <imie>Tongass</imie>
       <waga funty="246">120</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>9 miesięcy</okres_ciazy>
+      <okres_ciazy>9</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Orangutan>
-
+       </zwierze>
+ <zwierze>
     <Nietoperz gatunek="Mantlacki" plec="Kobieta" wCiazy="Tak">
       <imie>Takoda</imie>
       <waga funty="9">4</waga>
       <wiek dlugosc_zycia="12">5</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>3 miesiące</okres_ciazy>
+      <okres_ciazy>3</okres_ciazy>
       <gromada>Ptaki</gromada>
     </Nietoperz>
-
+   </zwierze>
+ <zwierze>
     <Gepard plec="Mezczyzna">
       <imie>Reetakac</imie>
       <waga funty="24">12</waga>
       <wiek dlugosc_zycia="17">1</wiek>
       <kolor>Pomarańczowy</kolor>
-      <okres_ciazy>7 miesięcy</okres_ciazy>
+      <okres_ciazy>7</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Gepard>
+   </zwierze>
     
     
 
   </Polnocna_Ameryka>
 
   <Antarktyka>
-
+ <zwierze>
     <Pingwin plec="Kobieta" wCiazy="Nie">
       <imie>Nora</imie>
       <waga funty="23">12</waga>
       <wiek dlugosc_zycia="6">2</wiek>
       <kolor>Biały</kolor>
-      <okres_ciazy>2 miesiące</okres_ciazy>
+      <okres_ciazy>2</okres_ciazy>
       <gromada>Ptaki</gromada>
     </Pingwin>
-    
-    
+    </zwierze>
+     <zwierze>
     <Foka gatunek="szara" plec="Mezczyzna">
       <imie>Merlin</imie>
       <waga funty="206">100</waga>
       <wiek dlugosc_zycia="25">9</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>6 miesięcy</okres_ciazy>
+      <okres_ciazy>6</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Foka>
-
-
+</zwierze>
+ <zwierze>
     <Lis gatunek="arktyczny" plec="Mezczyzna">
       <imie>Lincoln</imie>
       <waga funty="25">12</waga>
       <wiek dlugosc_zycia="10">2</wiek>
       <kolor>Pomarańczowy</kolor>
-      <okres_ciazy>4 miesiące</okres_ciazy>
+      <okres_ciazy>4</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Lis>
+   </zwierze>
   </Antarktyka>
 
   <Poludniowa_Ameryka>
+     <zwierze>
     <Hipopotam gatunek="kralowaty" plec="Mezczyzna">
       <imie>Lance</imie>
       <waga funty="1280">620</waga>
       <wiek dlugosc_zycia="90">26</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>24 miesiące</okres_ciazy>
+      <okres_ciazy>24</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Hipopotam>
-    
+       </zwierze>
+     <zwierze>
     <Jelen gatunek="szlachetny" plec="Kobieta" wCiazy="Nie">
       <imie>Lily</imie>
       <waga funty="120">60</waga>
       <wiek dlugosc_zycia="10">3</wiek>
       <kolor>Brązowy</kolor>
-      <okres_ciazy>5 miesięcy</okres_ciazy>
+      <okres_ciazy>5</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Jelen>
-
+       </zwierze>
+ <zwierze>
     <Kapibara plec="Mezczyzna">
       <imie>Burek</imie>
       <waga funty="360">176</waga>
       <wiek dlugosc_zycia="40">14</wiek>
       <kolor>Brązowy</kolor>
-      <okres_ciazy>16 miesięcy</okres_ciazy>
+      <okres_ciazy>16</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Kapibara>
+   </zwierze>
     
 </Poludniowa_Ameryka>
 
   <Australia>
-
+ <zwierze>
     <Panda plec="Mezczyzna">
       <imie>Jackson</imie>
       <waga funty="620">320</waga>
       <wiek dlugosc_zycia="36">16</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>8 miesięcy</okres_ciazy>
+      <okres_ciazy>8</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Panda>
-
+   </zwierze>
+ <zwierze>
     <Rys gatunek="Europejski" plec="Mezczyzna">
       <imie>Delu</imie>
       <waga funty="">19</waga>
@@ -212,48 +213,50 @@
       <dieta></dieta>
       <gromada></gromada>
     </Rys>
-
+   </zwierze>
+ <zwierze>
     <Zyrafa plec="Kobieta" wCiazy="Tak">
       <imie>Samara</imie>
       <waga funty="326">160</waga>
       <wiek dlugosc_zycia="40">15</wiek>
       <kolor>Żółty</kolor>
-      <okres_ciazy>12 miesięcy</okres_ciazy>
+      <okres_ciazy>12</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Zyrafa>
-
+</zwierze>
   </Australia>
 
   <Afryka>
-
+ <zwierze>
     <Alpaka plec="Mezczyzna">
       <imie>Dale</imie>
       <waga funty="160">70</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
-      <okres_ciazy>12 miesięcy</okres_ciazy>
+      <okres_ciazy>12</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Alpaka>
-  
-    
+  </zwierze>
+     <zwierze gatunek="Chapmana" plec="Mezczyzna">
     <Zebra gatunek="Chapmana" plec="Mezczyzna">
       <imie>Ralph</imie>
       <waga funty="263">130</waga>
       <wiek dlugosc_zycia="30">6</wiek>
       <kolor>Biało-Czarny</kolor>
-      <okres_ciazy>12 miesięcy</okres_ciazy>
-      <gromada>SSaki</gromada>
+      <okres_ciazy>12</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Zebra>
-
+       </zwierze>
+ <zwierze>
     <Wielblad gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak">
       <imie>Rose</imie>
       <waga funty="">480</waga>
       <wiek dlugosc_zycia="40">5</wiek>
       <kolor>Pomarańczowy</kolor>
-      <okres_ciazy>15 miesięcy</okres_ciazy>
+      <okres_ciazy>15</okres_ciazy>
       <gromada>Ssaki</gromada>
     </Wielblad>
-
+</zwierze>
   </Afryka>
 </zwierzeta>
 </zoo>
