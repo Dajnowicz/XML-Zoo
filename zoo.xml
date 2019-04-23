@@ -1,9 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <zoo>
+  <pracownicy>
+    <zarzad>
+      <prezes plec="Mezczyzna">
+        <imie>Marcel</imie>
+        <nazwisko>Dajnowicz</nazwisko>
+        <wiek>22</wiek>
+      </prezes>
+    </zarzad>
+    <reszta>
+      <hodowca plec="kobieta">
+        <imie>Zuzia</imie>
+        <nazwisko>Zywa</nazwisko>
+        <wiek>24</wiek>
+      </hodowca>
+      <dozorca plec="mezczyzna">
+        <imie>Adam</imie>
+        <nazwisko>Testowy</nazwisko>
+        <wiek>29</wiek>
+      </dozorca>
+    </reszta>
+  </pracownicy>
+  
+  <zwierzeta>
   <Azja>
     <Tygrys gatunek="Amur">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -14,7 +37,7 @@
 
     <Żółw gatunek="Aldabra">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -25,7 +48,7 @@
 
     <RybaAnielska>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -34,24 +57,22 @@
       <gromada></gromada>
     </RybaAnielska>
 
-
     <Hipopotam gatunek="nilowy">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
       <miejsce></miejsce>
       <dieta></dieta>
       <gromada></gromada>
-    </Hipopotam>
-    
+    </Hipopotam>    
   </Azja>
 
   <Europa>
     <Pyton gatunek="krwisty">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -62,7 +83,7 @@
 
     <Niedziedz gatunek="brazowy">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -73,7 +94,7 @@
 
     <Ropoucha gatunek="zurawia">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -84,7 +105,7 @@
 
     <Los>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -97,7 +118,7 @@
   <Polnocna_Ameryka>
     <Orangutan>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -108,7 +129,7 @@
 
     <Nietoperz gatunek="Mantlacki">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -119,7 +140,7 @@
 
     <Żółw gatunek="Gwiazda Hinduska">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -130,7 +151,7 @@
 
     <Gepard>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -147,7 +168,7 @@
 
     <Pingwin>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -158,7 +179,7 @@
 
     <Niedźwiedz gatunek="Polarny">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -170,7 +191,7 @@
     
     <Foka gatunek="szara">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -182,7 +203,7 @@
 
     <Lis gatunek="arktyczny">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -199,7 +220,7 @@
   <Poludniowa_Ameryka>
     <Hipopotam gatunek="kralowaty">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -210,7 +231,7 @@
     
     <Jelen gatunek="szlachetny">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -221,7 +242,7 @@
 
     <Kapibara>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -232,7 +253,7 @@
 
     <Kot gatunek="arabski">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -246,7 +267,7 @@
     
     <Mandryl>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -257,7 +278,7 @@
 
     <Panda>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -268,7 +289,7 @@
 
     <Ryś gatunek="Europejski">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -279,7 +300,7 @@
 
     <Zyrafa>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""> </waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -294,7 +315,7 @@
 
     <Alpaka>
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -307,7 +328,7 @@
     
     <Żaneta gatunek="afrykanska">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -318,7 +339,7 @@
     
     <Zebra gatunek="Chapmana">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -329,7 +350,7 @@
 
     <Wielbłąd gatunek="jednogarbny">
       <imie></imie>
-      <waga></waga>
+      <waga funty=""></waga>
       <wiek></wiek>
       <kolor></kolor>
       <reprodukcja></reprodukcja>
@@ -339,5 +360,5 @@
     </Wielbłąd>
 
   </Afryka>
-
+</zwierzeta>
 </zoo>
