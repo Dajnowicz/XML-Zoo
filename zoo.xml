@@ -1,6 +1,8 @@
-ï»¿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='iso-8859-2' ?>
+<?xml-stylesheet type="text/css" href="Style.css" ?>
 <zoo>
   <pracownicy>
+    
     <zarzad>
       <prezes plec="Mezczyzna">
         <imie>Marcel</imie>
@@ -8,13 +10,14 @@
         <wiek>22</wiek>
       </prezes>
     </zarzad>
+    
     <reszta>
-      <hodowca plec="kobieta">
+      <hodowca plec="Kobieta">
         <imie>Zuzia</imie>
         <nazwisko>Zywa</nazwisko>
         <wiek>24</wiek>
       </hodowca>
-      <dozorca plec="mezczyzna">
+      <dozorca plec="Mezczyzna">
         <imie>Adam</imie>
         <nazwisko>Testowy</nazwisko>
         <wiek>29</wiek>
@@ -22,142 +25,105 @@
     </reszta>
   </pracownicy>
   
+  <miejsce>
+    <informacja>
+      <nazwa>Zoo w Oliwie</nazwa>
+      <opis>Najwieksze zoo na pomorzu</opis>
+    </informacja>
+    <adres>
+      <ulica>Zwierzeca</ulica>
+      <numer>20</numer>
+      <kod_pocztowy>81-343</kod_pocztowy>
+      <miasto>Gdansk</miasto>
+   </adres>
+  </miejsce>
+  
   <zwierzeta>
-  <Azja>
-    <Tygrys gatunek="Amur">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Tygrys>
+    <Azja>
+      
+      <Tygrys gatunek="Amur" plec="Kobieta" wCiazy="Tak">
+        <imie>Alice</imie>
+        <waga funty="198">90</waga>
+        <wiek dlugosc_zycia="17">6</wiek>
+        <kolor znaki_szczegolne="pasy">Bia³o-Pomarañczowy</kolor>
+        <okres_ciazy>3 miesi±ce</okres_ciazy>
+        <gromada>Ssaki</gromada>
+      </Tygrys>
 
-    <Å»Ã³Å‚w gatunek="Aldabra">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Å»Ã³Å‚w>
+      <Zolw gatunek="Aldabra" plec="Mezczyzna">
+        <imie>Aspen</imie>
+        <waga funty="447">203</waga>
+        <wiek dlugosc_zycia="300">67</wiek>
+        <kolor znaki_szczegolne="Pancerz"></kolor>
+        <okres_ciazy>8 miêsiêcy</okres_ciazy>
+        <gromada>Gady</gromada>
+      </Zolw>
 
-    <RybaAnielska>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </RybaAnielska>
-
-    <Hipopotam gatunek="nilowy">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Hipopotam>    
-  </Azja>
+      <Ryba gatunek="Anielska" plec="Kobieta" wCiazy="Nie">
+        <imie>Cubby</imie>
+        <waga funty="29">12</waga>
+        <wiek dlugosc_zycia="6">3</wiek>
+        <kolor>¯ó³ty</kolor>
+        <okres_ciazy>1 miêsi±c</okres_ciazy>
+        <gromada>Promieniop³etwe</gromada>
+      </Ryba>
+    </Azja>
 
   <Europa>
-    <Pyton gatunek="krwisty">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Pyton gatunek="królewski" plec="Kobieta" wCiazy="Tak">
+      <imie>Desi</imie>
+      <waga funty="97">40</waga>
+      <wiek dlugosc_zycia="30">17</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>3 miesi±ce</okres_ciazy>
+      <gromada>Strunowce</gromada>
     </Pyton>
 
-    <Niedziedz gatunek="brazowy">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Niedziedz gatunek="brunatny" plec="Mezczyzna">
+      <imie>Juno</imie>
+      <waga funty="">456</waga>
+      <wiek dlugosc_zycia="25">12</wiek>
+      <kolor>Brunatny</kolor>
+      <okres_ciazy>12 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Niedziedz>
 
-    <Ropoucha gatunek="zurawia">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Ropoucha>
-
-    <Los>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Los plec="Mezczyzna">
+      <imie>Andrzej</imie>
+      <waga funty="490">250</waga>
+      <wiek dlugosc_zycia="25">17</wiek>
+      <kolor>Br±zowy</kolor>
+      <okres_ciazy>7 miesiecy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Los>
   </Europa>
   
   <Polnocna_Ameryka>
-    <Orangutan>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Orangutan plec="Mezczyzna">
+      <imie>Tongass</imie>
+      <waga funty="246">120</waga>
+      <wiek dlugosc_zycia="40">12</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>9 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Orangutan>
 
-    <Nietoperz gatunek="Mantlacki">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Nietoperz gatunek="Mantlacki" plec="Kobieta" wCiazy="Tak">
+      <imie>Takoda</imie>
+      <waga funty="9">4</waga>
+      <wiek dlugosc_zycia="12">5</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>3 miesi±ce</okres_ciazy>
+      <gromada>Ptaki</gromada>
     </Nietoperz>
 
-    <Å»Ã³Å‚w gatunek="Gwiazda Hinduska">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Å»Ã³Å‚w>
-
-    <Gepard>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Gepard plec="Mezczyzna">
+      <imie>Reetakac</imie>
+      <waga funty="24">12</waga>
+      <wiek dlugosc_zycia="17">1</wiek>
+      <kolor>Pomarañczowy</kolor>
+      <okres_ciazy>7 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Gepard>
     
     
@@ -166,198 +132,127 @@
 
   <Antarktyka>
 
-    <Pingwin>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Pingwin plec="Kobieta" wCiazy="Nie">
+      <imie>Nora</imie>
+      <waga funty="23">12</waga>
+      <wiek dlugosc_zycia="6">2</wiek>
+      <kolor>Bia³y</kolor>
+      <okres_ciazy>2 miesi±ce</okres_ciazy>
+      <gromada>Ptaki</gromada>
     </Pingwin>
-
-    <NiedÅºwiedz gatunek="Polarny">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </NiedÅºwiedz>
     
     
-    <Foka gatunek="szara">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Foka gatunek="szara" plec="Mezczyzna">
+      <imie>Merlin</imie>
+      <waga funty="206">100</waga>
+      <wiek dlugosc_zycia="25">9</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>6 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Foka>
 
 
-    <Lis gatunek="arktyczny">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Lis gatunek="arktyczny" plec="Mezczyzna">
+      <imie>Lincoln</imie>
+      <waga funty="25">12</waga>
+      <wiek dlugosc_zycia="10">2</wiek>
+      <kolor>Pomarañczowy</kolor>
+      <okres_ciazy>4 miesi±ce</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Lis>
-
-    
-
-
   </Antarktyka>
 
   <Poludniowa_Ameryka>
-    <Hipopotam gatunek="kralowaty">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Hipopotam gatunek="kralowaty" plec="Mezczyzna">
+      <imie>Lance</imie>
+      <waga funty="1280">620</waga>
+      <wiek dlugosc_zycia="90">26</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>24 miesi±ce</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Hipopotam>
     
-    <Jelen gatunek="szlachetny">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Jelen gatunek="szlachetny" plec="Kobieta" wCiazy="Nie">
+      <imie>Lily</imie>
+      <waga funty="120">60</waga>
+      <wiek dlugosc_zycia="10">3</wiek>
+      <kolor>Br±zowy</kolor>
+      <okres_ciazy>5 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Jelen>
 
-    <Kapibara>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Kapibara plec="Mezczyzna">
+      <imie>Burek</imie>
+      <waga funty="360">176</waga>
+      <wiek dlugosc_zycia="40">14</wiek>
+      <kolor>Br±zowy</kolor>
+      <okres_ciazy>16 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Kapibara>
-
-    <Kot gatunek="arabski">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Kot>
+    
 </Poludniowa_Ameryka>
 
   <Australia>
-    
-    <Mandryl>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Mandryl>
 
-    <Panda>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Panda plec="Mezczyzna">
+      <imie>Jackson</imie>
+      <waga funty="620">320</waga>
+      <wiek dlugosc_zycia="36">16</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>8 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Panda>
 
-    <RyÅ› gatunek="Europejski">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
+    <Rys gatunek="Europejski" plec="Mezczyzna">
+      <imie>Delu</imie>
+      <waga funty="">19</waga>
+      <wiek dlugosc_zycia="40"></wiek>
       <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
+      <okres_ciazy></okres_ciazy>
       <dieta></dieta>
       <gromada></gromada>
-    </RyÅ›>
+    </Rys>
 
-    <Zyrafa>
-      <imie></imie>
-      <waga funty=""> </waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Zyrafa plec="Kobieta" wCiazy="Tak">
+      <imie>Samara</imie>
+      <waga funty="326">160</waga>
+      <wiek dlugosc_zycia="40">15</wiek>
+      <kolor>¯ó³ty</kolor>
+      <okres_ciazy>12 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Zyrafa>
 
   </Australia>
 
   <Afryka>
 
-    <Alpaka>
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Alpaka plec="Mezczyzna">
+      <imie>Dale</imie>
+      <waga funty="160">70</waga>
+      <wiek dlugosc_zycia="40">12</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>12 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
     </Alpaka>
-
+  
     
-    
-    <Å»aneta gatunek="afrykanska">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </Å»aneta>
-    
-    <Zebra gatunek="Chapmana">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
+    <Zebra gatunek="Chapmana" plec="Mezczyzna">
+      <imie>Ralph</imie>
+      <waga funty="263">130</waga>
+      <wiek dlugosc_zycia="30">6</wiek>
+      <kolor>Bia³o-Czarny</kolor>
+      <okres_ciazy>12 miesiêcy</okres_ciazy>
+      <gromada>SSaki</gromada>
     </Zebra>
 
-    <WielbÅ‚Ä…d gatunek="jednogarbny">
-      <imie></imie>
-      <waga funty=""></waga>
-      <wiek></wiek>
-      <kolor></kolor>
-      <reprodukcja></reprodukcja>
-      <miejsce></miejsce>
-      <dieta></dieta>
-      <gromada></gromada>
-    </WielbÅ‚Ä…d>
+    <Wielblad gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak">
+      <imie>Rose</imie>
+      <waga funty="">480</waga>
+      <wiek dlugosc_zycia="40">5</wiek>
+      <kolor>Pomarañczowy</kolor>
+      <okres_ciazy>15 miesiêcy</okres_ciazy>
+      <gromada>Ssaki</gromada>
+    </Wielblad>
 
   </Afryka>
 </zwierzeta>
