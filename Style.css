@@ -118,44 +118,115 @@ gromada:before {
 Azja, Europa, Afryka, Antarktyka,
 Australia, Poludniowa_Ameryka, Polnocna_Ameryka {
     display: inline-block;
-    margin: 10px;
+    margin: 20px;
     font-family: Arial;
     font-weight: bolder;
     font-size: 20px;
     border: 10px solid purple;
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    transition: transform .3s;
 }
 
 zwierze {
     display: block;
     font-family: Arial;
-
-    margin: 40px;
+    transition: transform .2s;
+    margin: 20px;
     border: 3px solid grey;
-    
+    padding-right: 20px;
+    text-align: center;
 }
 
-imie, waga, wiek, kolor, okres_ciazy, gromada {
+zwierze.imie, waga, wiek, kolor, okres_ciazy, gromada {
     display: block;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+zwierze.imie {
+    font-size:30px;
 }
 okres_ciazy::after {
     content:" miesiecy";
 }
 
-Azja::before {
-    display:block;
-    content: "Azja";
+Azja:before, Europa:before, Afryka:before, Antarktyka:before,
+Australia:before, Poludniowa_Ameryka:before, Polnocna_Ameryka:before {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: 25px;
+}
+Azja:before {
+    content:"Azja";
+    color: dodgerblue;
+}
+Europa::before {
+    content: "Europa";
+    color: brown;
+}
+
+Afryka:before {
+    content: "Afryka";
+    color: dodgerblue;
+}
+
+Antarktyka::before {
+    content: "Antarktyka";
+    color: brown;
+}
+
+Australia::before {
+    content: "Australia";
+    color: brown;
+}
+
+Poludniowa_Ameryka:before {
+    content: "Poludniowa Ameryka";
+    color: dodgerblue;
+}
+
+Polnocna_Ameryka:before {
+    content: "Polnocna Ameryka";
+    color: brown;
+}
+
+zwierzeta {
     text-align:center;
-    margin-top:10px;
+}
+
+
+Azja:hover, Europa:hover, Afryka:hover, Antarktyka:hover,
+Australia:hover, Poludniowa_Ameryka:hover, Polnocna_Ameryka:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    transform: scale(1.1);
+}
+
+zwierze[plec='Kobieta']:after {
+    content: url('https://inf.ug.edu.pl/~lmielewczyk/teaching/ss/proj-jez-xml/lab/files/oznaczenieKobieta.png');
+}
+zwierze[plec='Mezczyzna']:after {
+    content: url('https://inf.ug.edu.pl/~lmielewczyk/teaching/ss/proj-jez-xml/lab/files/oznaczenieMezczyzna.png');
+}
+
+zwierze[wCiazy='Tak'] > imie:after {
+    content: "W ciązy!";
+    padding-left:10px;
+    color:palevioletred;
+    font-size:15px;
+
 }
 
 zwierze[plec='Mezczyzna']:hover {
     background: blue;
-    margin: 40px;
+    transform: scale(1.1);
+}
+zwierze[plec='Kobieta']:hover {
+    background: pink;
+    transform: scale(1.1);
 }
 
-[gromada='Ssaki']:hover {
-    background: blue;
-    margin: 40px;
-}

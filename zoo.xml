@@ -23,188 +23,155 @@
   
   <zwierzeta>
     <Azja>
-      <zwierze>
-      <Tygrys gatunek="Amur" plec="Kobieta" wCiazy="Tak">
+      <zwierze rasa="Tygrys" gatunek="Amur" plec="Kobieta" wCiazy="Tak">
         <imie>Alice</imie>
         <waga funty="198">90</waga>
         <wiek dlugosc_zycia="17">6</wiek>
         <kolor znaki_szczegolne="pasy">Bia這-Pomara鎍zowy</kolor>
         <okres_ciazy>3</okres_ciazy>
         <gromada>Ssaki</gromada>
-      </Tygrys>
       </zwierze>
-       <zwierze>
-      <Zolw gatunek="Aldabra" plec="Mezczyzna">
+       <zwierze rasa="Zolw" gatunek="Aldabra" plec="Mezczyzna">
         <imie>Aspen</imie>
         <waga funty="447">203</waga>
         <wiek dlugosc_zycia="300">67</wiek>
         <kolor znaki_szczegolne="Pancerz"></kolor>
         <okres_ciazy>8</okres_ciazy>
         <gromada>Gady</gromada>      
-      </Zolw>
          </zwierze>
       
-       <zwierze>
-      <Ryba gatunek="Anielska" plec="Kobieta" wCiazy="Nie">
+       <zwierze rasa="Ryba" gatunek="Anielska" plec="Kobieta" wCiazy="Nie">
         <imie>Cubby</imie>
         <waga funty="29">12</waga>
         <wiek dlugosc_zycia="6">3</wiek>
         <kolor>草速y</kolor>
         <okres_ciazy>1</okres_ciazy>
         <gromada>Promieniop貫twe</gromada>
-      </Ryba>
     </zwierze>
     </Azja>
 
   <Europa>
-     <zwierze>
-    <Pyton gatunek="kr鏊ewski" plec="Kobieta" wCiazy="Tak">
+     <zwierze rasa="Pyton" gatunek="kr鏊ewski" plec="Kobieta" wCiazy="Tak">
       <imie>Desi</imie>
       <waga funty="97">40</waga>
       <wiek dlugosc_zycia="30">17</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>3</okres_ciazy>
       <gromada>Strunowce</gromada>
-    </Pyton>
  </zwierze>
-    <zwierze>
-    <Niedziedz gatunek="brunatny" plec="Mezczyzna">
+    <zwierze rasa="Niedziedz" gatunek="brunatny" plec="Mezczyzna">
       <imie>Juno</imie>
       <waga funty="">456</waga>
       <wiek dlugosc_zycia="25">12</wiek>
       <kolor>Brunatny</kolor>
       <okres_ciazy>12</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Niedziedz>
     </zwierze>
- <zwierze>
-    <Los plec="Mezczyzna">
+ <zwierze rasa="Los" plec="Mezczyzna">
       <imie>Andrzej</imie>
       <waga funty="490">250</waga>
       <wiek dlugosc_zycia="25">17</wiek>
       <kolor>Br您owy</kolor>
       <okres_ciazy>7</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Los>
    </zwierze>
   </Europa>
   
   <Polnocna_Ameryka>
-     <zwierze>
-    <Orangutan plec="Mezczyzna">
+     <zwierze rasa="Orangutan" plec="Mezczyzna">
       <imie>Tongass</imie>
       <waga funty="246">120</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>9</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Orangutan>
        </zwierze>
- <zwierze>
-    <Nietoperz gatunek="Mantlacki" plec="Kobieta" wCiazy="Tak">
+ <zwierze rasa="Nietoperz" gatunek="Mantlacki" plec="Kobieta" wCiazy="Tak">
       <imie>Takoda</imie>
       <waga funty="9">4</waga>
       <wiek dlugosc_zycia="12">5</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>3</okres_ciazy>
       <gromada>Ptaki</gromada>
-    </Nietoperz>
    </zwierze>
- <zwierze>
-    <Gepard plec="Mezczyzna">
+ <zwierze rasa="Gepard" plec="Mezczyzna">
       <imie>Reetakac</imie>
       <waga funty="24">12</waga>
       <wiek dlugosc_zycia="17">1</wiek>
       <kolor>Pomara鎍zowy</kolor>
       <okres_ciazy>7</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Gepard>
    </zwierze>
-    
-    
-
   </Polnocna_Ameryka>
 
   <Antarktyka>
- <zwierze>
-    <Pingwin plec="Kobieta" wCiazy="Nie">
+ <zwierze rasa="Pingwin" plec="Kobieta" wCiazy="Nie">
       <imie>Nora</imie>
       <waga funty="23">12</waga>
       <wiek dlugosc_zycia="6">2</wiek>
       <kolor>Bia造</kolor>
       <okres_ciazy>2</okres_ciazy>
       <gromada>Ptaki</gromada>
-    </Pingwin>
     </zwierze>
-     <zwierze>
-    <Foka gatunek="szara" plec="Mezczyzna">
+     <zwierze  rasa="Foka" gatunek="szara" plec="Mezczyzna">
       <imie>Merlin</imie>
       <waga funty="206">100</waga>
       <wiek dlugosc_zycia="25">9</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>6</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Foka>
 </zwierze>
- <zwierze>
-    <Lis gatunek="arktyczny" plec="Mezczyzna">
+ <zwierze rasa="Lis" gatunek="arktyczny" plec="Mezczyzna">
       <imie>Lincoln</imie>
       <waga funty="25">12</waga>
       <wiek dlugosc_zycia="10">2</wiek>
       <kolor>Pomara鎍zowy</kolor>
       <okres_ciazy>4</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Lis>
    </zwierze>
   </Antarktyka>
 
   <Poludniowa_Ameryka>
-     <zwierze>
-    <Hipopotam gatunek="kralowaty" plec="Mezczyzna">
+     <zwierze rasa="Hipopotam" gatunek="kralowaty" plec="Mezczyzna">
       <imie>Lance</imie>
       <waga funty="1280">620</waga>
       <wiek dlugosc_zycia="90">26</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>24</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Hipopotam>
-       </zwierze>
-     <zwierze>
-    <Jelen gatunek="szlachetny" plec="Kobieta" wCiazy="Nie">
+     </zwierze>
+     <zwierze rasa="Jelen" gatunek="szlachetny" plec="Kobieta" wCiazy="Nie">
       <imie>Lily</imie>
       <waga funty="120">60</waga>
       <wiek dlugosc_zycia="10">3</wiek>
       <kolor>Br您owy</kolor>
       <okres_ciazy>5</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Jelen>
-       </zwierze>
- <zwierze>
-    <Kapibara plec="Mezczyzna">
+     </zwierze>
+ <zwierze rasa="Kapibara" plec="Mezczyzna">
       <imie>Burek</imie>
       <waga funty="360">176</waga>
       <wiek dlugosc_zycia="40">14</wiek>
       <kolor>Br您owy</kolor>
       <okres_ciazy>16</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Kapibara>
    </zwierze>
     
 </Poludniowa_Ameryka>
 
   <Australia>
- <zwierze>
-    <Panda plec="Mezczyzna">
+ <zwierze rasa="Panda" plec="Mezczyzna">
+
       <imie>Jackson</imie>
       <waga funty="620">320</waga>
       <wiek dlugosc_zycia="36">16</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>8</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Panda>
+
    </zwierze>
- <zwierze>
-    <Rys gatunek="Europejski" plec="Mezczyzna">
+ <zwierze rasa="Rys" gatunek="Europejski" plec="Mezczyzna">
+
       <imie>Delu</imie>
       <waga funty="">19</waga>
       <wiek dlugosc_zycia="40"></wiek>
@@ -212,50 +179,48 @@
       <okres_ciazy></okres_ciazy>
       <dieta></dieta>
       <gromada></gromada>
-    </Rys>
+
    </zwierze>
- <zwierze>
-    <Zyrafa plec="Kobieta" wCiazy="Tak">
+ <zwierze rasa="Zyrafa"  plec="Kobieta" wCiazy="Tak">
+
       <imie>Samara</imie>
       <waga funty="326">160</waga>
       <wiek dlugosc_zycia="40">15</wiek>
       <kolor>草速y</kolor>
       <okres_ciazy>12</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Zyrafa>
+
 </zwierze>
   </Australia>
 
   <Afryka>
- <zwierze>
-    <Alpaka plec="Mezczyzna">
+ <zwierze rasa="Alpaka" plec="Mezczyzna">
+
       <imie>Dale</imie>
       <waga funty="160">70</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>12</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Alpaka>
-  </zwierze>
-     <zwierze gatunek="Chapmana" plec="Mezczyzna">
-    <Zebra gatunek="Chapmana" plec="Mezczyzna">
-      <imie>Ralph</imie>
-      <waga funty="263">130</waga>
-      <wiek dlugosc_zycia="30">6</wiek>
-      <kolor>Bia這-Czarny</kolor>
-      <okres_ciazy>12</okres_ciazy>
-      <gromada>Ssaki</gromada>
-    </Zebra>
-       </zwierze>
- <zwierze>
-    <Wielblad gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak">
+
+   </zwierze>
+     <zwierze rasa="Zebra" gatunek="Chapmana" plec="Mezczyzna">
+
+       <imie>Ralph</imie>
+       <waga funty="263">130</waga>
+       <wiek dlugosc_zycia="30">6</wiek>
+       <kolor>Bia這-Czarny</kolor>
+       <okres_ciazy>12</okres_ciazy>
+       <gromada>Ssaki</gromada>
+
+     </zwierze>
+ <zwierze rasa="Wielb豉d" gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak">
       <imie>Rose</imie>
       <waga funty="">480</waga>
       <wiek dlugosc_zycia="40">5</wiek>
       <kolor>Pomara鎍zowy</kolor>
       <okres_ciazy>15</okres_ciazy>
       <gromada>Ssaki</gromada>
-    </Wielblad>
 </zwierze>
   </Afryka>
 </zwierzeta>
