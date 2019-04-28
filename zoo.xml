@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="Style.css" ?>
 <!DOCTYPE zoo SYSTEM "DTD.dtd">
-<zoo>
+<zoo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD.xsd">
+  
    <miejsce>
     <informacja>
       <nazwa>Zoo w Oliwie</nazwa>
@@ -20,8 +21,7 @@
         <nazwisko>Dajnowicz</nazwisko>
       </prezes>
     </zarzad>
-  
-
+ 
   
   <zwierzeta>
     <Azja>
@@ -238,6 +238,7 @@
       <waga funty="930">480</waga>
       <wiek dlugosc_zycia="40">5</wiek>
       <kolor>Pomarańczowy</kolor>
+      <okres_ciazy>12</okres_ciazy>
       <gromada>&S;</gromada>
  <choroby></choroby>
 </zwierze>

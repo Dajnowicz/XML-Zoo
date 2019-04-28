@@ -1,1 +1,127 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<xsd:schema xmlns:xsd=
+"http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="zoo" type="typ_zoo" />
+
+  <xsd:complexType name="typ_zoo">
+  <xsd:sequence>
+    <xsd:element name="miejsce" type="typ_miejsce" />
+    <xsd:element name="zarzad" type="typ_zarzad" />
+    <xsd:element name="zwierzeta" type="typ_zwierzeta" />
+  </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_miejsce">
+    <xsd:sequence>
+      <xsd:element name="informacja" type="typ_informacja" />
+      <xsd:element name="adres" type="typ_adres" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_informacja">
+    <xsd:sequence>
+      <xsd:element name="nazwa" type="xsd:string" />
+      <xsd:element name="opis" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_adres">
+    <xsd:sequence>
+      <xsd:element name="ulica" type="xsd:string" />
+      <xsd:element name="kod_pocztowy" type="xsd:string" />
+      <xsd:element name="miasto" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_zarzad">
+    <xsd:sequence>
+      <xsd:element name="prezes" type="typ_prezes" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_prezes">
+    <xsd:sequence>
+      <xsd:element name="imie" type="xsd:string" />
+      <xsd:element name="nazwisko" type="xsd:string" />
+    </xsd:sequence>
+    <xsd:attribute name="plec" type="xsd:string" use="required"/> <!-- typ na atrybut z plec-->
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_zwierzeta">
+    <xsd:sequence>
+      <xsd:element name="Azja" type="typ_kontynent" />
+      <xsd:element name="Europa" type="typ_kontynent" />
+      <xsd:element name="Polnocna_Ameryka" type="typ_kontynent" />
+      <xsd:element name="Antarktyka" type="typ_kontynent" />
+      <xsd:element name="Poludniowa_Ameryka" type="typ_kontynent" />
+      <xsd:element name="Australia" type="typ_kontynent" />
+      <xsd:element name="Afryka" type="typ_kontynent" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+
+  <xsd:complexType name="typ_kontynent">
+    <xsd:sequence>
+      <xsd:element name="zwierze" type="typ_zwierze" maxOccurs="3"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="typ_zwierze">
+    <xsd:sequence>
+      <xsd:element name="imie" type="xsd:string"  />
+      <xsd:element name="waga" type="extended_waga"  />
+      <xsd:element name="wiek" type="extended_wiek"  />
+      <xsd:element name="kolor" type="extended_kolor"  />
+      <xsd:element name="okres_ciazy" type="xsd:string"  />
+      <xsd:element name="gromada" type="xsd:string"  />
+      <xsd:element name="choroby" type="xsd:string"  />
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string" use="required"/>
+    <xsd:attribute name="rasa" type="xsd:string" use="required"/>
+    <xsd:attribute name="gatunek" type="xsd:string" use="optional"/>
+    <xsd:attribute name="plec" type="xsd:string" use="required"/>
+    <xsd:attribute name="wCiazy" type="xsd:string"/>
+    <xsd:attribute name="wZoo" type="xsd:string" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="extended_waga">
+    <xsd:simpleContent>
+      <xsd:extension base="typ_funty">
+        <xsd:attribute name="funty" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:simpleType name="typ_funty">
+    <xsd:restriction base="xsd:string">
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="extended_wiek">
+    <xsd:simpleContent>
+      <xsd:extension base="typ_dlugosc_zycia">
+        <xsd:attribute name="dlugosc_zycia" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:simpleType name="typ_dlugosc_zycia">
+    <xsd:restriction base="xsd:string">
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="extended_kolor">
+    <xsd:simpleContent>
+      <xsd:extension base="typ_znaki_szczegolne">
+        <xsd:attribute name="znaki_szczegolne" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:simpleType name="typ_znaki_szczegolne">
+    <xsd:restriction base="xsd:string">
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+
+</xsd:schema>
