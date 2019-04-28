@@ -1,0 +1,61 @@
+﻿<!ENTITY % zwierzeta "(Azja, Europa,Polnocna_Ameryka,Antarktyka,Poludniowa_Ameryka,Australia,Afryka)">
+<!ENTITY % zwierze "(imie, waga,wiek,kolor,okres_ciazy?,gromada,choroby)">
+
+<!ENTITY % pc "#PCDATA">
+<!ENTITY % r "#REQUIRED">
+<!ENTITY % i "#IMPLIED">
+<!ENTITY % f "#FIXED">
+<!ENTITY % cd "CDATA">
+<!ENTITY % mk "(Mezczyzna|Kobieta)">
+
+<!ELEMENT zoo (miejsce, zarzad, zwierzeta)>
+
+<!ELEMENT miejsce (informacja*, adres)>
+
+<!ELEMENT informacja (nazwa, opis)>
+<!ELEMENT nazwa (%pc;)>
+<!ELEMENT opis (%pc;)>
+
+<!ELEMENT adres (ulica, kod_pocztowy,miasto)>
+<!ELEMENT ulica (%pc;)>
+<!ELEMENT kod_pocztowy (%pc;)>
+<!ELEMENT miasto (%pc;)>
+
+<!ELEMENT zarzad (prezes?)>
+<!ELEMENT prezes (imie,nazwisko)>
+<!ATTLIST prezes plec %cd; %r;>
+<!ELEMENT imie (%pc;)>
+<!ELEMENT nazwisko (%pc;)>
+
+
+<!ELEMENT zwierzeta (%zwierzeta;)>
+
+<!ELEMENT Azja (zwierze+)>
+<!ELEMENT Europa (zwierze+)>
+<!ELEMENT Polnocna_Ameryka (zwierze+)>
+<!ELEMENT Antarktyka (zwierze+)>
+<!ELEMENT Poludniowa_Ameryka (zwierze+)>
+<!ELEMENT Australia (zwierze+)>
+<!ELEMENT Afryka (zwierze+)>
+
+<!ELEMENT zwierze (%zwierze;)>
+<!ATTLIST zwierze id ID %r;>
+<!ATTLIST zwierze rasa %cd; %r;>
+<!ATTLIST zwierze gatunek %cd;  %i;>
+<!ATTLIST zwierze plec %mk; %r;>
+<!ATTLIST zwierze wCiazy %cd;  %i;>
+<!ATTLIST zwierze wZoo (Tak)  %f; "Tak">
+
+<!ELEMENT waga (%pc;)>
+<!ATTLIST waga funty %cd; %r;>
+<!ELEMENT wiek (%pc;)>
+<!ATTLIST wiek dlugosc_zycia %cd; %r;>
+<!ELEMENT kolor (%pc;)>
+<!ATTLIST kolor znaki_szczegolne %cd; %i;>
+<!ELEMENT okres_ciazy (%pc;)>
+<!ELEMENT gromada (%pc;)>
+<!ELEMENT choroby EMPTY>
+
+<!ENTITY S "Ssaki">
+<!ENTITY P "Ptaki">
+

@@ -1,7 +1,8 @@
-<?xml version='1.0' encoding='iso-8859-2' ?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="Style.css" ?>
+<!DOCTYPE zoo SYSTEM "DTD.dtd">
 <zoo>
-      <miejsce>
+   <miejsce>
     <informacja>
       <nazwa>Zoo w Oliwie</nazwa>
       <opis>Najwieksze zoo na pomorzu</opis>
@@ -11,7 +12,8 @@
       <kod_pocztowy>81-343</kod_pocztowy>
       <miasto>Gdansk</miasto>
    </adres>
-  </miejsce> 
+  </miejsce>
+  
     <zarzad>
       <prezes plec="Mezczyzna">
         <imie>Marcel</imie>
@@ -23,204 +25,221 @@
   
   <zwierzeta>
     <Azja>
-      <zwierze rasa="Tygrys" gatunek="Amur" plec="Kobieta" wCiazy="Tak">
+      <zwierze id="z1" rasa="Tygrys" gatunek="Amur" plec="Kobieta" wCiazy="Tak" wZoo="Tak">
         <imie>Alice</imie>
         <waga funty="198">90</waga>
         <wiek dlugosc_zycia="17">6</wiek>
-        <kolor znaki_szczegolne="pasy">Biało-Pomarańczowy</kolor>
+        <kolor znaki_szczegolne="pasy">BiaĹy</kolor>
         <okres_ciazy>3</okres_ciazy>
-        <gromada>Ssaki</gromada>
+        <gromada>&S;</gromada>
+        <choroby></choroby>
       </zwierze>
-       <zwierze rasa="Zolw" gatunek="Aldabra" plec="Mezczyzna">
+       <zwierze id="z2" rasa="Zolw" gatunek="Aldabra" plec="Mezczyzna" wZoo="Tak">
         <imie>Aspen</imie>
         <waga funty="447">203</waga>
         <wiek dlugosc_zycia="300">67</wiek>
-        <kolor znaki_szczegolne="Pancerz"></kolor>
+        <kolor znaki_szczegolne="Pancerz">Czarny</kolor>
         <okres_ciazy>8</okres_ciazy>
-        <gromada>Gady</gromada>      
+        <gromada>Gady</gromada>
+       <choroby></choroby>
          </zwierze>
       
-       <zwierze rasa="Ryba" gatunek="Anielska" plec="Kobieta" wCiazy="Nie">
+       <zwierze id="z3" rasa="Ryba" gatunek="Anielska" plec="Kobieta" wCiazy="Nie" wZoo="Tak">
         <imie>Cubby</imie>
         <waga funty="29">12</waga>
         <wiek dlugosc_zycia="6">3</wiek>
-        <kolor>Żółty</kolor>
+        <kolor>ĹťĂłĹty</kolor>
         <okres_ciazy>1</okres_ciazy>
-        <gromada>Promieniopłetwe</gromada>
+        <gromada>PromieniopĹetwe</gromada>
+       <choroby></choroby>
     </zwierze>
     </Azja>
 
   <Europa>
-     <zwierze rasa="Pyton" gatunek="królewski" plec="Kobieta" wCiazy="Tak">
+     <zwierze id="z4" rasa="Pyton" gatunek="krĂłlewski" plec="Kobieta" wCiazy="Tak" wZoo="Tak">
       <imie>Desi</imie>
       <waga funty="97">40</waga>
       <wiek dlugosc_zycia="30">17</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>3</okres_ciazy>
       <gromada>Strunowce</gromada>
+     <choroby></choroby>
  </zwierze>
-    <zwierze rasa="Niedziedz" gatunek="brunatny" plec="Mezczyzna">
+    <zwierze id="z5" rasa="Niedziedz" gatunek="brunatny" plec="Mezczyzna" wZoo="Tak">
       <imie>Juno</imie>
       <waga funty="">456</waga>
       <wiek dlugosc_zycia="25">12</wiek>
       <kolor>Brunatny</kolor>
       <okres_ciazy>12</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+    <choroby></choroby>
     </zwierze>
- <zwierze rasa="Los" plec="Mezczyzna">
+ <zwierze id="z6" rasa="Los" plec="Mezczyzna" wZoo="Tak">
       <imie>Andrzej</imie>
       <waga funty="490">250</waga>
       <wiek dlugosc_zycia="25">17</wiek>
-      <kolor>Brązowy</kolor>
+      <kolor>BrÄzowy</kolor>
       <okres_ciazy>7</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+      <choroby></choroby>
    </zwierze>
   </Europa>
   
   <Polnocna_Ameryka>
-     <zwierze rasa="Orangutan" plec="Mezczyzna">
+     <zwierze id="z7" rasa="Orangutan" plec="Mezczyzna" wZoo="Tak">
       <imie>Tongass</imie>
       <waga funty="246">120</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>9</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+     <choroby></choroby>
        </zwierze>
- <zwierze rasa="Nietoperz" gatunek="Mantlacki" plec="Kobieta" wCiazy="Tak">
+ <zwierze id="z8" rasa="Nietoperz" gatunek="Mantlacki" plec="Kobieta" wCiazy="Tak" wZoo="Tak">
       <imie>Takoda</imie>
       <waga funty="9">4</waga>
       <wiek dlugosc_zycia="12">5</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>3</okres_ciazy>
-      <gromada>Ptaki</gromada>
+      <gromada>&P;</gromada>
+ <choroby></choroby>
    </zwierze>
- <zwierze rasa="Gepard" plec="Mezczyzna">
+ <zwierze id="z9" rasa="Gepard" plec="Mezczyzna" wZoo="Tak">
       <imie>Reetakac</imie>
       <waga funty="24">12</waga>
       <wiek dlugosc_zycia="17">1</wiek>
-      <kolor>Pomarańczowy</kolor>
+      <kolor>PomaraĹczowy</kolor>
       <okres_ciazy>7</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
    </zwierze>
   </Polnocna_Ameryka>
 
   <Antarktyka>
- <zwierze rasa="Pingwin" plec="Kobieta" wCiazy="Nie">
+ <zwierze id="z10" rasa="Pingwin" plec="Kobieta" wCiazy="Nie" wZoo="Tak">
       <imie>Nora</imie>
       <waga funty="23">12</waga>
       <wiek dlugosc_zycia="6">2</wiek>
-      <kolor>Biały</kolor>
+      <kolor>BiaĹy</kolor>
       <okres_ciazy>2</okres_ciazy>
-      <gromada>Ptaki</gromada>
+      <gromada>&P;</gromada>
+ <choroby></choroby>
     </zwierze>
-     <zwierze  rasa="Foka" gatunek="szara" plec="Mezczyzna">
+     <zwierze id="z11"  rasa="Foka" gatunek="szara" plec="Mezczyzna" wZoo="Tak">
       <imie>Merlin</imie>
       <waga funty="206">100</waga>
       <wiek dlugosc_zycia="25">9</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>6</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+     <choroby></choroby>
 </zwierze>
- <zwierze rasa="Lis" gatunek="arktyczny" plec="Mezczyzna">
+ <zwierze id="z12" rasa="Lis" gatunek="arktyczny" plec="Mezczyzna" wZoo="Tak">
       <imie>Lincoln</imie>
       <waga funty="25">12</waga>
       <wiek dlugosc_zycia="10">2</wiek>
-      <kolor>Pomarańczowy</kolor>
+      <kolor>PomaraĹczowy</kolor>
       <okres_ciazy>4</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
    </zwierze>
   </Antarktyka>
 
   <Poludniowa_Ameryka>
-     <zwierze rasa="Hipopotam" gatunek="kralowaty" plec="Mezczyzna">
+     <zwierze id="z13" rasa="Hipopotam" gatunek="kralowaty" plec="Mezczyzna" wZoo="Tak">
       <imie>Lance</imie>
       <waga funty="1280">620</waga>
       <wiek dlugosc_zycia="90">26</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>24</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
      </zwierze>
-     <zwierze rasa="Jelen" gatunek="szlachetny" plec="Kobieta" wCiazy="Nie">
+     <zwierze id="z14" rasa="Jelen" gatunek="szlachetny" plec="Kobieta" wCiazy="Nie" wZoo="Tak">
       <imie>Lily</imie>
       <waga funty="120">60</waga>
       <wiek dlugosc_zycia="10">3</wiek>
-      <kolor>Brązowy</kolor>
+      <kolor>BrÄzowy</kolor>
       <okres_ciazy>5</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
      </zwierze>
- <zwierze rasa="Kapibara" plec="Mezczyzna">
+ <zwierze id="z15" rasa="Kapibara" plec="Mezczyzna" wZoo="Tak">
       <imie>Burek</imie>
       <waga funty="360">176</waga>
       <wiek dlugosc_zycia="40">14</wiek>
-      <kolor>Brązowy</kolor>
+      <kolor>BrÄzowy</kolor>
       <okres_ciazy>16</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
    </zwierze>
     
 </Poludniowa_Ameryka>
 
   <Australia>
- <zwierze rasa="Panda" plec="Mezczyzna">
+ <zwierze id="z16" rasa="Panda" plec="Mezczyzna" wZoo="Tak">
 
       <imie>Jackson</imie>
       <waga funty="620">320</waga>
       <wiek dlugosc_zycia="36">16</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>8</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
 
    </zwierze>
- <zwierze rasa="Rys" gatunek="Europejski" plec="Mezczyzna">
+ <zwierze id="z17" rasa="Rys" gatunek="Europejski" plec="Mezczyzna" wZoo="Tak">
 
       <imie>Delu</imie>
-      <waga funty="">19</waga>
-      <wiek dlugosc_zycia="40"></wiek>
-      <kolor></kolor>
-      <okres_ciazy></okres_ciazy>
-      <dieta></dieta>
-      <gromada></gromada>
+      <waga funty="904">450</waga>
+      <wiek dlugosc_zycia="40">13</wiek>
+      <kolor>Czarny</kolor>
+      <okres_ciazy>10</okres_ciazy>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
 
    </zwierze>
- <zwierze rasa="Zyrafa"  plec="Kobieta" wCiazy="Tak">
+ <zwierze id="z18" rasa="Zyrafa"  plec="Kobieta" wCiazy="Tak" wZoo="Tak">
 
       <imie>Samara</imie>
       <waga funty="326">160</waga>
       <wiek dlugosc_zycia="40">15</wiek>
-      <kolor>Żółty</kolor>
+      <kolor>ĹťĂłĹty</kolor>
       <okres_ciazy>12</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
 
 </zwierze>
   </Australia>
 
   <Afryka>
- <zwierze rasa="Alpaka" plec="Mezczyzna">
+ <zwierze id="z19" rasa="Alpaka" plec="Mezczyzna" wZoo="Tak">
 
       <imie>Dale</imie>
       <waga funty="160">70</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
       <okres_ciazy>12</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <gromada>&S;</gromada>
+      <choroby></choroby>
 
    </zwierze>
-     <zwierze rasa="Zebra" gatunek="Chapmana" plec="Mezczyzna">
-
+     <zwierze id="z20" rasa="Zebra" gatunek="Chapmana" plec="Mezczyzna" wZoo="Tak">
        <imie>Ralph</imie>
        <waga funty="263">130</waga>
        <wiek dlugosc_zycia="30">6</wiek>
-       <kolor>Biało-Czarny</kolor>
+       <kolor>BiaĹo-Czarny</kolor>
        <okres_ciazy>12</okres_ciazy>
-       <gromada>Ssaki</gromada>
-
+       <gromada>&S;</gromada>
+       <choroby></choroby>
      </zwierze>
- <zwierze rasa="Wielbład" gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak">
+ <zwierze id="z21" rasa="WielbĹad" gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak" wZoo="Tak">
       <imie>Rose</imie>
-      <waga funty="">480</waga>
+      <waga funty="930">480</waga>
       <wiek dlugosc_zycia="40">5</wiek>
-      <kolor>Pomarańczowy</kolor>
-      <okres_ciazy>15</okres_ciazy>
-      <gromada>Ssaki</gromada>
+      <kolor>PomaraĹczowy</kolor>
+      <gromada>&S;</gromada>
+ <choroby></choroby>
 </zwierze>
   </Afryka>
 </zwierzeta>
