@@ -7,10 +7,11 @@
     <informacja>
       <nazwa>Zoo w Oliwie</nazwa>
       <opis>Najwieksze zoo na pomorzu</opis>
+      <data_zalozenia>2002-09-24</data_zalozenia>
     </informacja>
     <adres>
       <ulica>Zwierzeca 20</ulica>
-      <kod_pocztowy>81-343</kod_pocztowy>
+      <kod_pocztowy>81343</kod_pocztowy>
       <miasto>Gdansk</miasto>
    </adres>
   </miejsce>
@@ -215,7 +216,7 @@
   <Afryka>
  <zwierze id="z19" rasa="Alpaka" plec="Mezczyzna" wZoo="Tak">
 
-      <imie>Dale</imie>
+      <imie>Ale</imie>
       <waga funty="160">70</waga>
       <wiek dlugosc_zycia="40">12</wiek>
       <kolor>Czarny</kolor>
@@ -234,7 +235,7 @@
        <choroby></choroby>
      </zwierze>
  <zwierze id="z21" rasa="Wielbład" gatunek="jednogarbny" plec="Kobieta" wCiazy="Tak" wZoo="Tak">
-      <imie>Rose</imie>
+      <imie>Bose</imie>
       <waga funty="930">480</waga>
       <wiek dlugosc_zycia="40">5</wiek>
       <kolor>Pomarańczowy</kolor>

@@ -13,21 +13,25 @@
   <xsd:complexType name="typ_miejsce">
     <xsd:sequence>
       <xsd:element name="informacja" type="typ_informacja" />
-      <xsd:element name="adres" type="typ_adres" />
+      <xsd:choice>
+        <xsd:element name="adres" type="typ_adres" />
+        <xsd:element name="ulica" type="xsd:string" /> 
+      </xsd:choice>
     </xsd:sequence>
   </xsd:complexType>
 
   <xsd:complexType name="typ_informacja">
-    <xsd:sequence>
+    <xsd:all>
       <xsd:element name="nazwa" type="xsd:string" />
-      <xsd:element name="opis" type="xsd:string" />
-    </xsd:sequence>
+      <xsd:element name="opis" type="typ_opis" />
+      <xsd:element name="data_zalozenia" type="xsd:date" />
+    </xsd:all>
   </xsd:complexType>
 
   <xsd:complexType name="typ_adres">
     <xsd:sequence>
       <xsd:element name="ulica" type="xsd:string" />
-      <xsd:element name="kod_pocztowy" type="xsd:string" />
+      <xsd:element name="kod_pocztowy" type="typ_kod_pocztowy" />
       <xsd:element name="miasto" type="xsd:string" />
     </xsd:sequence>
   </xsd:complexType>
@@ -46,7 +50,8 @@
     <xsd:attribute name="plec" type="xsd:string" use="required"/> <!-- typ na atrybut z plec-->
   </xsd:complexType>
 
-  <xsd:complexType name="typ_zwierzeta">
+  
+ <xsd:complexType name="typ_zwierzeta">
     <xsd:sequence>
       <xsd:element name="Azja" type="typ_kontynent" />
       <xsd:element name="Europa" type="typ_kontynent" />
@@ -58,27 +63,26 @@
     </xsd:sequence>
   </xsd:complexType>
 
-
   <xsd:complexType name="typ_kontynent">
     <xsd:sequence>
       <xsd:element name="zwierze" type="typ_zwierze" maxOccurs="3"/>
     </xsd:sequence>
   </xsd:complexType>
-
+    
   <xsd:complexType name="typ_zwierze">
     <xsd:sequence>
       <xsd:element name="imie" type="xsd:string"  />
       <xsd:element name="waga" type="extended_waga"  />
       <xsd:element name="wiek" type="extended_wiek"  />
       <xsd:element name="kolor" type="extended_kolor"  />
-      <xsd:element name="okres_ciazy" type="xsd:string"  />
+      <xsd:element name="okres_ciazy" type="typ_okres_ciazy"  />
       <xsd:element name="gromada" type="xsd:string"  />
       <xsd:element name="choroby" type="xsd:string"  />
     </xsd:sequence>
     <xsd:attribute name="id" type="xsd:string" use="required"/>
     <xsd:attribute name="rasa" type="xsd:string" use="required"/>
     <xsd:attribute name="gatunek" type="xsd:string" use="optional"/>
-    <xsd:attribute name="plec" type="xsd:string" use="required"/>
+    <xsd:attribute name="plec" type="typ_plec" use="required"/>
     <xsd:attribute name="wCiazy" type="xsd:string"/>
     <xsd:attribute name="wZoo" type="xsd:string" use="required"/>
   </xsd:complexType>
@@ -91,28 +95,21 @@
     </xsd:simpleContent>
   </xsd:complexType>
 
-  <xsd:simpleType name="typ_funty">
-    <xsd:restriction base="xsd:string">
-    </xsd:restriction>
-  </xsd:simpleType>
+  
 
   <xsd:complexType name="extended_wiek">
     <xsd:simpleContent>
-      <xsd:extension base="typ_dlugosc_zycia">
-        <xsd:attribute name="dlugosc_zycia" type="xsd:string"/>
+      <xsd:extension base="typ_wiek">
+        <xsd:attribute name="dlugosc_zycia" type="typ_dlugosc_zycia"/>
       </xsd:extension>
     </xsd:simpleContent>
   </xsd:complexType>
 
-  <xsd:simpleType name="typ_dlugosc_zycia">
-    <xsd:restriction base="xsd:string">
-    </xsd:restriction>
-  </xsd:simpleType>
-
+  
   <xsd:complexType name="extended_kolor">
     <xsd:simpleContent>
-      <xsd:extension base="typ_znaki_szczegolne">
-        <xsd:attribute name="znaki_szczegolne" type="xsd:string"/>
+      <xsd:extension base="typ_kolor">
+        <xsd:attribute name="znaki_szczegolne" type="typ_znaki_szczegolne"/>
       </xsd:extension>
     </xsd:simpleContent>
   </xsd:complexType>
@@ -121,7 +118,97 @@
     <xsd:restriction base="xsd:string">
     </xsd:restriction>
   </xsd:simpleType>
+  
+  
+    <!--restrykcje-->
+
+<xsd:simpleType name="typ_opis">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="3" />
+			<xsd:maxLength value="30" />
+		</xsd:restriction>
+	</xsd:simpleType>
+  
+<xsd:simpleType name="typ_kod_pocztowy">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\d{5}" />
+		</xsd:restriction>
+	</xsd:simpleType>
+  
+  
+ <xsd:simpleType name="typ_wiek">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="1"/>
+      <xsd:maxInclusive value="100"/>
+    </xsd:restriction>
+  </xsd:simpleType>
 
 
+  
+   <xsd:simpleType name="typ_okres_ciazy">
+      <xsd:restriction base="xsd:short">
+      <xsd:pattern value="[0-9]{1,2}"/>
+      </xsd:restriction>
+  </xsd:simpleType>
+  
+<xsd:simpleType name="typ_plec">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="Mezczyzna|Kobieta" />
+		</xsd:restriction>
+	</xsd:simpleType>
+  
+  <xsd:simpleType name="typ_funty">
+    <xsd:restriction base="xsd:positiveInteger ">
+       <xsd:minExclusive value="1"/>
+       <xsd:maxExclusive value="1000"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="typ_dlugosc_zycia">
+    <xsd:restriction base="xsd:nonNegativeInteger">
+      <xsd:totalDigits value="3"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+<!--UNION-->
+  
+  <xsd:simpleType name="typ_choroba">
+			<xsd:union memberTypes="brak liczby"/>
+	</xsd:simpleType>
+  
+  	<xsd:simpleType name="brak">
+  		 <xsd:restriction base="xsd:string">
+			 <xsd:enumeration value=""/>
+			 <xsd:enumeration value="brak danych"/>
+  		</xsd:restriction>
+	</xsd:simpleType>
+  
+  <xsd:simpleType name="liczby">
+		<xsd:list itemType="typ_liczby2">
+		</xsd:list>
+	</xsd:simpleType>
+  
+	<xsd:simpleType name="typ_liczby2">
+		<xsd:restriction base="xsd:integer">
+			<xsd:maxInclusive value="10" />
+			<xsd:minInclusive value="0" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+  <!--KONIEC UNION-->
+
+<!--enum-->
+  
+  <xsd:simpleType name="typ_kolor">
+    <xsd:restriction base="xsd:string">
+     <xsd:enumeration value="Pomarańczowy"/>
+     <xsd:enumeration value="Biało-Czarny"/>
+     <xsd:enumeration value="Czarny"/>
+     <xsd:enumeration value="Żółty"/>
+     <xsd:enumeration value="Brązowy"/>
+     <xsd:enumeration value="Biały"/>
+     <xsd:enumeration value="Brunatny"/>
+    </xsd:restriction>
+  </xsd:simpleType>
 
 </xsd:schema>
