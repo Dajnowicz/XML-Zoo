@@ -8,13 +8,28 @@
 <!ENTITY % cd "CDATA">
 <!ENTITY % mk "(Mezczyzna|Kobieta)">
 
+<!ENTITY % NoweZoo "INCLUDE">
+<!ENTITY % StareZoo "IGNORE">
+
+<![%StareZoo; [
+<!ELEMENT zoo (miejsce, zwierzeta)>
+<!ATTLIST zoo xmlns:xsi %cd; %r;>
+]]>
+
+
+<![%NoweZoo; [
 <!ELEMENT zoo (miejsce, zarzad, zwierzeta)>
+<!ATTLIST zoo xmlns:xsi %cd; %r;>
+<!ATTLIST zoo xsi:noNamespaceSchemaLocation %cd; %r;>
+]]>
 
 <!ELEMENT miejsce (informacja*, adres)>
 
-<!ELEMENT informacja (nazwa, opis)>
+
+<!ELEMENT informacja (nazwa, opis,data_zalozenia)>
 <!ELEMENT nazwa (%pc;)>
 <!ELEMENT opis (%pc;)>
+<!ELEMENT data_zalozenia (%pc;)>
 
 <!ELEMENT adres (ulica, kod_pocztowy,miasto)>
 <!ELEMENT ulica (%pc;)>

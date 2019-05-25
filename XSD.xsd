@@ -90,7 +90,7 @@
   <xsd:complexType name="extended_waga">
     <xsd:simpleContent>
       <xsd:extension base="typ_funty">
-        <xsd:attribute name="funty" type="xsd:string"/>
+        <xsd:attribute name="funty" type="typ_funty"/>
       </xsd:extension>
     </xsd:simpleContent>
   </xsd:complexType>
@@ -158,9 +158,9 @@
 	</xsd:simpleType>
   
   <xsd:simpleType name="typ_funty">
-    <xsd:restriction base="xsd:positiveInteger ">
+    <xsd:restriction base="xsd:positiveInteger">
        <xsd:minExclusive value="1"/>
-       <xsd:maxExclusive value="1000"/>
+       <xsd:maxExclusive value="10000"/>
     </xsd:restriction>
   </xsd:simpleType>
   
